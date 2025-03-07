@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:introduction_screen/introduction_screen.dart';
-import 'package:latihan_flutter/auth/intro_screen.dart';
-import 'package:latihan_flutter/auth/login_quiz.dart';
+import 'package:latihan_flutter/auth/main_screen.dart';
+// import 'package:introduction_screen/introduction_screen.dart';
+// import 'package:latihan_flutter/auth/main_screen.dart';
+import 'package:latihan_flutter/auth/splash_screen.dart';
+// import 'package:latihan_flutter/auth/intro_screen.dart';
+// import 'package:latihan_flutter/main/login_quiz.dart';
+// import 'package:latihan_flutter/auth/onboarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +37,8 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:IntroductionScreen2 (),
+      // home: LoginScreen(),
+      home:SplashScreen(),  
     );
   }
 }

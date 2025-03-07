@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_flutter/auth/login_quiz.dart';
+import 'package:latihan_flutter/auth/main_screen.dart';
+import 'package:latihan_flutter/auth/onboarding_screen.dart';
+// import 'package:latihan_flutter/main/login_quiz.dart';
 import 'package:latihan_flutter/service/pref_handler.dart';
 import 'package:latihan_flutter/utils/constant/app_color.dart';
 import 'package:latihan_flutter/utils/constant/app_image.dart';
@@ -40,7 +42,7 @@ class _SplashScreenState extends State<SplashScreen> {
       } else {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => LoginScreen()),
+          MaterialPageRoute(builder: (context) => OnboardingScreen()),
         );
       }
     });

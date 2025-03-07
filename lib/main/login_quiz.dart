@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_flutter/auth/detail_quiz.dart';
+import 'package:latihan_flutter/main/detail_quiz.dart';
 import 'package:latihan_flutter/utils/constant/app_image.dart';
 
 
 // import 'package:introduction_screen/introduction_screen.dart';
 
-class LoginScreen extends StatefulWidget {
-  const LoginScreen({super.key});
+class LoginQuiz extends StatefulWidget {
+  const LoginQuiz({super.key});
 
   @override
-  State<LoginScreen> createState() => _LoginScreenState();
+  State<LoginQuiz> createState() => _LoginQuizState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _LoginQuizState extends State<LoginQuiz> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
